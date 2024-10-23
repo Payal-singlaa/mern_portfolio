@@ -20,12 +20,12 @@ const CertificateSet = lazy(() => {
         new Promise((resolve) => setTimeout(resolve, 500)),
     ]).then(([moduleExports]) => moduleExports);
 });
-const ProjectSet = lazy(() => {
-    return Promise.all([
-        import("../../projectset/ProjectSet"),
-        new Promise((resolve) => setTimeout(resolve, 500)),
-    ]).then(([moduleExports]) => moduleExports);
-});
+// const ProjectSet = lazy(() => {
+//     return Promise.all([
+//         import("../../projectset/ProjectSet"),
+//         new Promise((resolve) => setTimeout(resolve, 500)),
+//     ]).then(([moduleExports]) => moduleExports);
+// });
 // const HobbySet = lazy(() => {
 //     return Promise.all([
 //         import("../../hobbyset/HobbySet"),
@@ -53,10 +53,10 @@ const Homepage = () => {
             <Suspense fallback={<div style={{height: isMobile ? "400px" : "600px", width: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}><Loader/></div>}>
                 <Intropage/>
                 <Motto/>
-                <ProjectSet title="Latest Projects" time="latest" limit="3"/>
+                {/* <ProjectSet title="Latest Projects" time="latest" limit="3"/> */}
                 {certificateset}
                 <Experience/>
-                <SkillSet title="High Rated Skills" time="latest" limit="6" />
+                <SkillSet title="Skills" time="latest" limit="6" />
                 <Education/>
             </Suspense>
         </div>

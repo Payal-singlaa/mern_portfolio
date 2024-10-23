@@ -34,46 +34,47 @@ const Education = () => {
                     <>
                     <Text preciseColor={_color}>B.Tech (Computer Science)</Text>
                     <div className={classes["timeline-location"]}>
-                        <Text size="small" preciseColor={_color} variant='span'>&nbsp;<FontAwesomeIcon icon={faLocationPin}/>&nbsp;&nbsp;Manipal University</Text>
-                        <Text size="small" preciseColor={_color}><FontAwesomeIcon icon={faCalendar}/>&nbsp;&nbsp;Apr 2016 - Apr 2020&nbsp;&nbsp;</Text>
+                        <Text size="small" preciseColor={_color} variant='span'>&nbsp;<FontAwesomeIcon icon={faLocationPin}/>&nbsp;&nbsp;JK Lakshmipat University</Text>
+                        <Text size="small" preciseColor={_color}><FontAwesomeIcon icon={faCalendar}/>&nbsp;&nbsp;Aug 2022 - Aug 2026&nbsp;&nbsp;</Text>
                     </div>
                     <List className={classes["timeline-description"]} size='small' style={{gap:"0.25rem", paddingLeft: "1rem"}}>
-                        <ListItem><Text size="small" preciseColor={_color}>1st Year: Programming Languages</Text></ListItem> 
+                        <ListItem><Text size="small" preciseColor={_color}>1st sem</Text></ListItem> 
                         <List style={{paddingLeft: 0, marginTop: 0}}>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Learnt C, C++ and Java</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Learnt basics of Python through HackerRank</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>GPA: 9.1</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Computational Data Analysis (Python)</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Fundamanentals of Automation Engineering</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Linear Algebra</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>SGPA: 7.8</Text></ListItem>
                         </List>
-                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>2nd Year: App Development</Text></ListItem> 
+                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>2nd sem</Text></ListItem> 
                         <List style={{paddingLeft: 0, marginTop: 0}}>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Dived into Android Studio to understand how to create apps</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Learnt PHP and MySQL using Coursera</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>GPA: 8.7</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>OOP (Java)</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Basic Calculus</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>SGPA: 7.2</Text></ListItem>
                         </List>
-                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>3rd Year: Machine Learning</Text></ListItem> 
+                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>3rd sem</Text></ListItem> 
                         <List style={{paddingLeft: 0, marginTop: 0}}>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Learnt about Deep Learning, Artificial Neural Networks and Logistic Regression</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Implemented it using Jupyter Notebooks and R</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>GPA:8.2</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Data Structures (C programming)</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>DBMS</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Computer Organization and Architecture</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>GPA:8.0</Text></ListItem>
                         </List>
-                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>4th Year: Web Development</Text></ListItem> 
+                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>4th sem</Text></ListItem> 
                         <List style={{paddingLeft: 0, marginTop: 0}}>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Learnt about PHP, Javascript and MySQL</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Increased my proficiency in basic languages like HTML5 and CSS</Text></ListItem>
-                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>GPA: 8.6</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Algorithms</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Machine Learning</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Operating Systems</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>Optimization</Text></ListItem>
+                            <ListItem className={classes["timeline-description-item"]}><Text size="small" preciseColor={_color}>GPA: 7.2</Text></ListItem>
                         </List>
-                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>CGPA: 8.6</Text></ListItem> 
+                        <ListItem style={{marginTop: "1rem"}}><Text size="small" preciseColor={_color}>CGPA: 7.57</Text></ListItem> 
                     </List>
                     <List variant="unordered" size="small" style={{padding: 0, display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "row", marginTop: "1rem", flexWrap: "wrap"}} color="primary">
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Javascript</Text></Tag></ListItem>
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>PHP</Text></Tag></ListItem>
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Android Studio</Text></Tag></ListItem>
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>MySQL</Text></Tag></ListItem>
                         <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>C</Text></Tag></ListItem>
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>C#</Text></Tag></ListItem>
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Java</Text></Tag></ListItem>
                         <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Python</Text></Tag></ListItem>
-                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Deep Learning</Text></Tag></ListItem>
+                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Java</Text></Tag></ListItem>
+                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>C++</Text></Tag></ListItem>
+                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>MySQL</Text></Tag></ListItem>
+                        <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>Machine Learning</Text></Tag></ListItem>
                     </List>
                     </>
                 </StyledCard>
@@ -85,20 +86,16 @@ const Education = () => {
                 <div className={classes["timeline-circle"]}><StyledItemCircle $circleColor={_primaryBgColor} className={classes["timeline-item-circle"]}/></div>
                 <StyledCard style={{padding: "1.25rem", display: "flex", alignItems:"stretch"}} variant="neumorph" color="primary">
                     <>
-                        <Text preciseColor={_color}>HSC (XI and XII)</Text>
+                        <Text preciseColor={_color}>XII (CBSE)</Text>
                         <div className={classes["timeline-location"]}>
-                            <Text size="small" preciseColor={_color} variant='span'>&nbsp;<FontAwesomeIcon icon={faLocationPin}/>&nbsp;&nbsp;Thakur Viyda Mandir</Text>
-                            <Text size="small" preciseColor={_color}><FontAwesomeIcon icon={faCalendar}/>&nbsp;&nbsp;May 2019 - Jul 2019&nbsp;&nbsp;</Text>
+                            <Text size="small" preciseColor={_color} variant='span'>&nbsp;<FontAwesomeIcon icon={faLocationPin}/>&nbsp;&nbsp;DAV Public School</Text>
+                            <Text size="small" preciseColor={_color}><FontAwesomeIcon icon={faCalendar}/>&nbsp;&nbsp;April 2021 - Jul 2022&nbsp;&nbsp;</Text>
                         </div>
                         <List className={classes["timeline-description"]} size='small' style={{gap:"0.25rem", paddingLeft: "1rem"}}>
-                            <ListItem><Text size="small" preciseColor={_color}>Learnt basics of HTML and CSS</Text></ListItem>
-                            <ListItem><Text size="small" preciseColor={_color}>Marks: 87.54%</Text></ListItem>
-                            <ListItem><Text size="small" preciseColor={_color}>Qualified for JEE Advance</Text></ListItem>
+                            <ListItem><Text size="small" preciseColor={_color}>Marks: 81.2%</Text></ListItem>
                         </List>
                         
                         <List variant="unordered" size="small" style={{padding: 0, display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "row", marginTop: "1rem", flexWrap: "wrap"}} color="primary">
-                            <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>HTML</Text></Tag></ListItem>
-                            <ListItem><Tag variant="outlined" color="black"><Text fontSize='0.875rem' size="small" preciseColor={_color}>CSS</Text></Tag></ListItem>
                         </List>
                     </>
                 </StyledCard>
@@ -107,14 +104,13 @@ const Education = () => {
                 <div className={`${classes["timeline-circle"]} ${classes["timeline-item-invisible"]}`}><StyledItemCircle $circleColor={_primaryBgColor} className={classes["timeline-item-circle"]}/></div>
                 <StyledCard style={{padding: "1.25rem", display: "flex", alignItems:"stretch"}} variant="neumorph" color="primary">
                     <>
-                        <Text preciseColor={_color}>ICSE (X)</Text>
+                        <Text preciseColor={_color}>X (CBSE)</Text>
                         <div className={classes["timeline-location"]}>
-                            <Text size="small" preciseColor={_color} variant='span'>&nbsp;<FontAwesomeIcon icon={faLocationPin}/>&nbsp;&nbsp;Lokhandwala Foundation School</Text>
+                            <Text size="small" preciseColor={_color} variant='span'>&nbsp;<FontAwesomeIcon icon={faLocationPin}/>&nbsp;&nbsp;St. Thomas Sr. Sec. School</Text>
+                            <Text size="small" preciseColor={_color}><FontAwesomeIcon icon={faCalendar}/>&nbsp;&nbsp;April 2019 - March 2020&nbsp;&nbsp;</Text>
                         </div>
                         <List className={classes["timeline-description"]} size='small' style={{gap:"0.25rem", paddingLeft: "1rem"}}>
-                            <ListItem><Text size="small" preciseColor={_color}>Learnt basics of Java, C++ and C</Text></ListItem>
-                            <ListItem><Text size="small" preciseColor={_color}>Marks: 94.2%</Text></ListItem>
-                            <ListItem><Text size="small" preciseColor={_color}>Scored 100 out of 100 in Computer Applications</Text></ListItem>
+                            <ListItem><Text size="small" preciseColor={_color}>Marks: 86.2%</Text></ListItem>
                         </List>
                     </>
                 </StyledCard>

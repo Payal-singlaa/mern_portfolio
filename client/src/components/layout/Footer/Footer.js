@@ -16,16 +16,16 @@ const Footer = () => {
                         <List className={classes.footerMenuContent} style={{padding:"0 0 0 12px", margin: 0, display: "flex", flexDirection: "row", justifyContent: 'center', alignItems:"center"}}>
                             {/* <ListItem><Link to="/">>Home</Text></ListItem> */}
                             <ListItem><Link preciseColor="white" href="/">Home</Link></ListItem>
-                            <ListItem><Link preciseColor="white" href="/projects">Projects</Link></ListItem>
-                            <ListItem><Link preciseColor="white" href="/certificates">Certificates</Link></ListItem>
+                            <ListItem><Link preciseColor="white" href="/experience">Projects</Link></ListItem>
+                            <ListItem><Link preciseColor="white" href="/education">Education</Link></ListItem>
                             <ListItem><Link preciseColor="white" href="/skills">Skills</Link></ListItem>
                         </List>
                     </div>
                     <div className={`${classes.footerMenu} ${classes.lastFooterMenu}`}>
                     <div className={classes.footerMenuHeader}><Text variant="span" preciseColor='white'>Socials</Text></div>
                         <ul className={classes.footerMenuContent}>
-                            <Link preciseColor="white" size="large" href="https://www.linkedin.com/in/tanuj-sengupta-872a05129/" style={{display: "flex", alignItems: "center", justifyContent: "center"}}><IconBrandLinkedin/></Link>
-                            <Link preciseColor="white" size="large" href="https://github.com/yuva0" style={{display: "flex", alignItems: "center", justifyContent: "center"}}><IconBrandGithub/></Link>
+                            <Link preciseColor="white" size="large" href="https://www.linkedin.com/in/payal-singla-287880257?trk=contact-info" style={{display: "flex", alignItems: "center", justifyContent: "center"}}><IconBrandLinkedin/></Link>
+                            <Link preciseColor="white" size="large" href="https://github.com/Payal-singlaa" style={{display: "flex", alignItems: "center", justifyContent: "center"}}><IconBrandGithub/></Link>
                         </ul>
                     </div>
                 </div>

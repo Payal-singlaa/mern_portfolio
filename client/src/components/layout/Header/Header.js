@@ -63,7 +63,7 @@ const Header = (props) => {
     >
       <HeaderGroup style={{marginLeft: isMobile ? "0.5rem" : "1rem"}}>
         {isMobile && <Navigation/>}
-        {!isMobile && <HeaderItem style={{marginLeft: "2rem"}}><Link tabIndex={0} color="primary" style={{width: "100%", height: "100%"}} href="/"><Text tabIndex={-1} variant={isLaptop ? "h3" : "h1"} color="primary" fontFamily="'Dosis', sans-serif;">Tanuj Sengupta</Text></Link></HeaderItem>}
+        {!isMobile && <HeaderItem style={{marginLeft: "2rem"}}><Link tabIndex={0} color="primary" style={{width: "100%", height: "100%"}} href="/"><Text tabIndex={-1} variant={isLaptop ? "h3" : "h1"} color="primary" fontFamily="'Dosis', sans-serif;">Payal Singla</Text></Link></HeaderItem>}
       </HeaderGroup>
       <HeaderGroup></HeaderGroup>
       <HeaderGroup style={{ marginRight: isMobile ? "0.5rem" :"2rem", gap: "1rem" }}>
@@ -108,8 +108,8 @@ const Header = (props) => {
                 ],
               }}
             >
-              <MenuItem><Link href="/projects"><Text color="primary">Projects</Text></Link></MenuItem>
-              <MenuItem><Link href="/certificates"><Text color="primary">Certificates</Text></Link></MenuItem>
+              <MenuItem><Link href="/experience"><Text color="primary">Projects</Text></Link></MenuItem>
+              <MenuItem><Link href="/education"><Text color="primary">Education</Text></Link></MenuItem>
               <MenuItem><Link href="/skills"><Text color="primary">Skills</Text></Link></MenuItem>
               {/* <MenuItem><ReactRouterLink to="/projects"><Text color="primary">Cards</Text></ReactRouterLink></MenuItem> */}
             </Menu>}
@@ -136,7 +136,7 @@ const Header = (props) => {
             alt="Sun Theme"
             size="small"
             variant="neumorph"
-            onClick={() => window.open("https://github.com/yuva0")}
+            onClick={() => window.open("https://github.com/Payal-singlaa")}
           />
         </HeaderItem>
         <HeaderItem>

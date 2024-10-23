@@ -14,11 +14,11 @@ const Navigation = () => {
                 <div style={{display: "flex", flexDirection: "column", gap: "2rem", marginLeft: "1rem"}}>
                     <Link size="large" color="primary" onClick={() => {navigate("/"); setDrawerOpen(false)}}>Home</Link>
                     <List title={<Text size="large" color="primary">Categories</Text>}>
-                        <ListItem><Link size="large" color="primary" onClick={() => {navigate("/projects"); setDrawerOpen(false)}}>Projects</Link></ListItem>
-                        <ListItem><Link size="large" color="primary" onClick={() => {navigate("/certificates"); setDrawerOpen(false)}}>Certificates</Link></ListItem>
+                        <ListItem><Link size="large" color="primary" onClick={() => {navigate("/experience"); setDrawerOpen(false)}}>Projects</Link></ListItem>
+                        <ListItem><Link size="large" color="primary" onClick={() => {navigate("/education"); setDrawerOpen(false)}}>Education</Link></ListItem>
                         <ListItem><Link size="large" color="primary" onClick={() => {navigate("/skills"); setDrawerOpen(false)}}>Skills</Link></ListItem>
                     </List>
-                    <Link size="large" color="primary" onClick={() => {navigate("/blogs"); setDrawerOpen(false)}}>Blogs</Link>
+                    {/* <Link size="large" color="primary" onClick={() => {navigate("/blogs"); setDrawerOpen(false)}}>Blogs</Link> */}
                 </div>
             </Drawer>
         </>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import profileImage from "../../assets/images/profile.jpg";
-import { Avatar, Button, Card, Link, List, ListItem, Text, useTheme } from "stelios";
+import { Avatar, Button, Card, List, ListItem, Text, useTheme } from "stelios";
 import colors from "../../tokens/color/color-tokens.json";
 import Resume from "./resume";
 
@@ -53,19 +53,19 @@ const Intropage = () => {
                     fontFamily='"Alegreya", serif;'
                     style={{ marginTop: "1rem", textAlign: "center" }}
                 >
-                    Tanuj Sengupta
+                    Payal Singla
                 </Text>
                 </div>
             <div style={{ flex: "1 1 65%", padding: "1rem 0" }}>
 
-            <List color="primary" title={<Text color="primary" size="large">FrontEnd Developer</Text>} style={{gap: "0.25rem"}}>
-                <ListItem><Text preciseColor={_color} size="medium">Specialising in component design systems and accessibility.</Text></ListItem>
-                <ListItem><Text preciseColor={_color} size="medium" style={{marginTop: "0.5rem"}}>Created multiple websites with focus on functionality, performance and user experience.</Text></ListItem>
-                <ListItem><Text preciseColor={_color} size="medium" style={{marginTop: "0.5rem"}}>Currently creating a themable design system with over 100 components - <Link variant="underline" target="_blank" color="primary" href="https://steliosui.com/">www.steliosui.com</Link></Text></ListItem>
+            <List color="primary" title={<Text color="primary" size="large">B.tech Undergrad</Text>} style={{gap: "0.25rem"}}>
+                <ListItem><Text preciseColor={_color} size="medium">Passion  for problem solving and software development</Text></ListItem>
+                <ListItem><Text preciseColor={_color} size="medium" style={{marginTop: "0.5rem"}}>Proficient in programming languages like python, C, java</Text></ListItem>
+                <ListItem><Text preciseColor={_color} size="medium" style={{marginTop: "0.5rem"}}>Eager to apply academic knowledge to real world projects and contribute effectively</Text></ListItem>
             </List>
             <div style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "2rem", columnGap: "2rem", rowGap: "1rem", flexWrap: "wrap"}}>
                 <Button variant="neumorph" color="primary" onClick={() => {setShowResume(true)}} style={{backgroundColor: _primaryBgColor, color: _primaryColor , border:0}}>View Resume</Button>
-                <Button variant="neumorph" color="primary" onClick={() => {window.open("https://www.linkedin.com/in/tanuj-sengupta-872a05129/")}}>LinkedIn Profile</Button>
+                <Button variant="neumorph" color="primary" onClick={() => {window.open("https://www.linkedin.com/in/payal-singla-287880257?trk=contact-info")}}>LinkedIn Profile</Button>
             </div>
             </div>
         </>

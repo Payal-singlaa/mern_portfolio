@@ -78,7 +78,7 @@ const Settings = () => {
                     alt="storybook"
                     icon={<IconBrandStorybook />}
                     onClick={() =>
-                      window.open("https://yuva0.github.io/")
+                      window.open("https://github.com/Payal-singlaa")
                     }
                   />
                   <IconButton
@@ -89,7 +89,7 @@ const Settings = () => {
                     icon={<IconBrandLinkedin />}
                     onClick={() =>
                       window.open(
-                        "https://www.linkedin.com/in/tanuj-sengupta-872a05129/"
+                        "https://www.linkedin.com/in/payal-singla-287880257?trk=contact-info"
                       )
                     }
                   />

@@ -29,21 +29,23 @@ const Resume = (props) => {
     const _color = useTheme().theme.colorPalette.primary.appearance === "light" ? "black" : "white";
 
     const handleDownloadResume = () => {
-        if (theme === "ats") {
-            window.open("https://drive.google.com/uc?export=download&id=1-dxYpgjDfMGN-G_eQMWLNsKXqYi1jOPc");
-        }
-        else {
-            window.open("https://drive.google.com/uc?export=download&id=1eNO7UYY3GoTw6PCwYZXm6Ze5OktcR76p");
-        }
+        window.open("https://drive.google.com/file/d/1Sz3H7IywCIasUaV13eB7rMceBaWc93nN/view?usp=sharing");
+        // if (theme === "ats") {
+        //     window.open("https://drive.google.com/file/d/1Sz3H7IywCIasUaV13eB7rMceBaWc93nN/view?usp=sharing");
+        // }
+        // else {
+        //     window.open("https://drive.google.com/uc?export=download&id=1eNO7UYY3GoTw6PCwYZXm6Ze5OktcR76p");
+        // }
     }
 
     const handleFullScreenResume = () => {
-        if (theme === "ats") {
-            window.open("https://tanujsengupta.b-cdn.net/resume/resume_ats.pdf");
-        }
-        else {
-            window.open("https://tanujsengupta.b-cdn.net/resume/vscode_resume.pdf");
-        }
+        window.open("https://drive.google.com/file/d/1Sz3H7IywCIasUaV13eB7rMceBaWc93nN/view?usp=sharing");
+        // if (theme === "ats") {
+        //     window.open("https://tanujsengupta.b-cdn.net/resume/resume_ats.pdf");
+        // }
+        // else {
+        //     window.open("https://tanujsengupta.b-cdn.net/resume/vscode_resume.pdf");
+        // }
     }
 
     return (
